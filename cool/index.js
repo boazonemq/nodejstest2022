@@ -3,7 +3,7 @@ const c = require('constant-case');
 module.exports = async function (context, req) {
     context.log('JavaScript HTTP trigger function processed a request.');
 
-    const name = 'boaz ron';
+    const name = '';
     const result = c.constantCase("Your name in uppercase is "+name);
     context.log(result);
 
